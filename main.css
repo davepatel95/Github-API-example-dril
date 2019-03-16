@@ -1,0 +1,12 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.results-list{
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
+li {
+    list-style: square;
+}

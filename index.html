@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Github Repo Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Search a Github user to find their repos</h1>
+    </header>
+
+    <main role="main">
+
+        <section class="form-section">
+            <form class="repo-form">
+                <fieldset>
+                    <label for="user-name">Username:</label>
+                    <input type="text" name="user-name" class="user-name" required/>
+                    <button type="submit">Search</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="results-section">
+            <div class="results-list hidden">
+
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
